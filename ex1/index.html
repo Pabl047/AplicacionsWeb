@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercici 1</title>
+</head>
+<body>
+<style>
+
+
+
+table { 
+	width:100%;
+}
+
+td {
+	text-align:center;
+	background-color:#adb4ae;
+	border-radius: 25px;
+}
+
+
+	
+	
+ul   {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding-top: 14px ;
+	padding-right: 16px;
+	padding-bottom:14px ;
+	padding-left: 16px;
+	
+	text-decoration: none;
+				
+}
+
+li a:hover{
+	background-color: #111;/
+}
+
+@keyframes pokemon-up {
+
+	0%,
+	100% {
+	  transform: translateY(0);
+}
+
+	50% {
+	  transform: translateY(.4rem);
+  }
+}  
+
+td:hover{
+		background-color: #111;
+		animation: pokemon-up .3s;
+		cursor: pointer;
+
+}
+
+.fuego{
+	background-color: #EF8308;
+}
+
+.agua{
+	background-color: #4b9ad5;
+
+}
+
+.bicho{
+	
+	background-color: #acd657;
+}
+
+.veneno{
+	background-color: #c56ff9;
+	border-radius: 10px;
+
+}
+
+.planta{
+	background-color: #98f762;
+	border-radius: 10px;
+
+}
+
+.volador{
+	background-image: linear-gradient(to bottom, blue, grey);
+}
+
+.normal{
+	background-color: #c5c6c4;
+}
+
+.eléctrico{
+	background-color: #e9ec59;
+}
+
+.tierra{
+	background-color: #d2d61c;
+}
+
+.lucha{
+	background-color: #d86325;
+}
+
+.psíquico{
+	background-color: #eb73d3;
+}
+
+.fantasma{
+	background-color: #a688b7;
+}
+
+.roca{
+	background-color: #ca9d23;
+}
+
+.hielo{
+	background-color: #96eff0;
+}
+
+.dragón{
+	background-color: #8d77c8;
+}
+
+
+.pokemon-type{
+	width: 25%;
+	text-align: center;
+}
+
+
+.pokemon-name {
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.pokemon-description{
+	background-color: #fff;
+	margin: 0 1rem 1rem;
+	padding: .5rem;
+	border-radius: 15px;
+
+</style>
+
+<ul>
+	<li><a href="">Home</a></li>
+	<li><a href="">Pokedex 1</a></li>
+	<li><a href="">Pokedex 2</a></li>
+	<li><a href="">Pokedex 3</a></li>
+</ul>
+
+
+
+<table style="width:100%">
+	
+	
+	<tr>
+		<td><img src="../img/bulbasaur.png"/>
+		<div class="pokemon-description">
+			<h3 class="pokemon-name">Bulbasaur</h3>
+			<div>
+				<div class="pokemon-type planta">Planta</div>
+				<div class="pokemon-type veneno">Veneno</div>
+			</div>	
+		</div>
+		
+		</td>
+		
+		
+		<td><img src="../img/ivysaur.png"/>
+		<div class="pokemon-description">
+			<h3 class="pokemon-name">Ivysaur</h3>
+			<div>
+				<div class="pokemon-type planta">Planta</div>
+				<div class="pokemon-type veneno">Veneno</div>
+			</div>	
+		</div>
+		
+		
+		</td>
+	
+		<td><img src="../img/venusaur.png"/>
+		<div class="pokemon-description">
+			<h3 class="pokemon-name">Venusaur</h3>
+			<div>
+				<div class="pokemon-type planta">Planta</div>
+				<div class="pokemon-type veneno">Veneno</div>
+			</div>	
+			
+		</div>
+			
+		</td>
+	</tr>
+	
+	
+	<tr>
+	
+		<td><img src="../img/charmander.png"/>
+		<div class="pokemon-description">
+			<h3 class="pokemon-name"Z>Charmander</h3>
+				<div>
+					<div class="pokemon-type fuego">Fuego</div>
+				</div>
+		</div>
+		
+		</td>
+			
+		<td><img src="../img/charmeleon.png"/>
+		<div class="pokemon-description">
+			<h3 class="pokemon-name"Z>Charmeleon</h3>
+				<div>
+					<div class="pokemon-type fuego">Fuego</div>
+				</div>
+		</div>		
+				
+		</td>
+		
+		
+		<td><img src="../img/charizard.png"/>
+		<div class="pokemon-description">
+			<h3 class="pokemon-name"Z>Charizard</h3>
+				<div>
+					<div class="pokemon-type fuego">Fuego</div>
+				</div>
+				<div>
+					<div class="pokemon-type volador">Volador</div>
+				</div>
+				
+		</div>
+			
+		</td>
+	</tr>
+	
+	
+	
+	
+</table>
+</body>
+</html>
